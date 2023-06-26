@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shape Drop Game</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h3>Score: <span id="score"></span></h3>
+      <p>Drag the colorful shapes into the matching holes!</p>
+      <button>Play again</button>
+    </header>
+    <div class="drop-section">
+      <div class="drop square"></div>
+      <div class="drop rectangle"></div>
+      <div class="drop circle"></div>
+      <div class="drop square2"></div>
+      <div class="drop oval2"></div>
+      <div class="drop rectangle2"></div>
+      <div class="drop rectangle3"></div>
+      <div class="drop pill"></div>
+      <div class="drop oval"></div>
+      <div class="drop pill2"></div>
+    </div>
+    <div class="drag-section">
+      <div class="rectangle" draggable="true"></div>
+      <div class="circle" draggable="true"></div>
+      <div class="pill" draggable="true"></div>
+      <div class="square" draggable="true"></div>
+      <div class="oval2" draggable="true"></div>
+      <div class="rectangle3" draggable="true"></div>
+      <div class="oval" draggable="true"></div>
+      <div class="rectangle2" draggable="true"></div>
+      <div class="pill2" draggable="true"></div>
+      <div class="square2" draggable="true"></div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
